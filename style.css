@@ -1,0 +1,18 @@
+.home-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.content-page {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.button-styles-yes,
+.button-styles-no {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+}

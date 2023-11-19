@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Eres pvto</title>
+</head>
+<body>
+    
+    <container>
+        <div class="row">
+            <h1 class="home-title">
+                ¿Eres Put@?
+            </h1>
+        </div>
+        <div class="content-page">
+            <button type="button" id="yes-button" class="btn btn-success button-styles-yes" data-bs-toggle="modal" data-bs-target="#confirmModal">Si</button>
+            <button type="button" id="no-button" class="btn btn-danger button-styles-no">No</button>
+        </div>
+    </container>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body" id="modal-boddy">
+                    <span id="modal-boddy-text"></span>
+                </div>
+                <div class="modal-footer">
+          <button type="button" id="button-modal-close" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" id="button-modal-restart" class="btn btn-primary">Reiniciar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
